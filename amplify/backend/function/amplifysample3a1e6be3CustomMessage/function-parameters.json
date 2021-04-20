@@ -1,0 +1,26 @@
+{
+  "trigger": true,
+  "modules": [
+    "verification-link"
+  ],
+  "parentResource": "amplifysample3a1e6be3",
+  "functionName": "amplifysample3a1e6be3CustomMessage",
+  "resourceName": "amplifysample3a1e6be3CustomMessage",
+  "parentStack": "auth",
+  "triggerEnvs": [
+    {
+      "key": "RESOURCENAME",
+      "value": "resourceName"
+    }
+  ],
+  "triggerDir": "/Users/brizanm/.nvm/versions/node/v15.11.0/lib/node_modules/@aws-amplify/cli/node_modules/amplify-category-auth/provider-utils/awscloudformation/triggers/CustomMessage",
+  "triggerTemplate": "CustomMessage.json.ejs",
+  "triggerEventPath": "CustomMessage.event.json",
+  "roleName": "amplifysample3a1e6be3CustomMessage",
+  "skipEdit": true,
+  "REDIRECTURL": "https://www.milty.io",
+  "EMAILSUBJECT": "Confirming subscription to amplifysample",
+  "EMAILMESSAGE": "Thanks for registering! Use this code to verify your account.",
+  "RESOURCENAME": "resourceName",
+  "enableCors": false
+}

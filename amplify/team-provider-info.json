@@ -1,0 +1,42 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-amplifysample-dev-205002-authRole",
+      "UnauthRoleArn": "arn:aws:iam::194825674939:role/amplify-amplifysample-dev-205002-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::194825674939:role/amplify-amplifysample-dev-205002-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-amplifysample-dev-205002-deployment",
+      "UnauthRoleName": "amplify-amplifysample-dev-205002-unauthRole",
+      "StackName": "amplify-amplifysample-dev-205002",
+      "StackId": "arn:aws:cloudformation:us-east-2:194825674939:stack/amplify-amplifysample-dev-205002/58b6f0e0-a172-11eb-a454-0268c1a9cae0",
+      "AmplifyAppId": "d2wbszqrr8ac3s"
+    },
+    "categories": {
+      "function": {
+        "amplifysample3a1e6be3DefineAuthChallenge": {
+          "deploymentBucketName": "amplify-amplifysample-dev-205002-deployment",
+          "s3Key": "amplify-builds/amplifysample3a1e6be3DefineAuthChallenge-44643438636f616e3362-build.zip"
+        },
+        "amplifysample3a1e6be3CreateAuthChallenge": {
+          "deploymentBucketName": "amplify-amplifysample-dev-205002-deployment",
+          "s3Key": "amplify-builds/amplifysample3a1e6be3CreateAuthChallenge-6137724f374837545174-build.zip"
+        },
+        "amplifysample3a1e6be3VerifyAuthChallengeResponse": {
+          "RECAPTCHASECRET": "6LeNj7AaAAAAAARxAw5NsvP3OJ3Mm4DgDdvgUmCt",
+          "deploymentBucketName": "amplify-amplifysample-dev-205002-deployment",
+          "s3Key": "amplify-builds/amplifysample3a1e6be3VerifyAuthChallengeResponse-2b6e755757352b784f4a-build.zip"
+        },
+        "amplifysample3a1e6be3CustomMessage": {
+          "REDIRECTURL": "https://www.milty.io",
+          "EMAILSUBJECT": "Confirming subscription to amplifysample",
+          "EMAILMESSAGE": "Thanks for registering! Use this code to verify your account.",
+          "deploymentBucketName": "amplify-amplifysample-dev-205002-deployment",
+          "s3Key": "amplify-builds/amplifysample3a1e6be3CustomMessage-725455336946794d6462-build.zip"
+        }
+      },
+      "auth": {
+        "amplifysample3a1e6be3": {}
+      }
+    }
+  }
+}
