@@ -1,0 +1,9 @@
+type Document @model {
+  id: ID!
+  title: String!
+  description: String!
+  filePath: String!
+  approved: Boolean!
+  owner: String!
+}
+
