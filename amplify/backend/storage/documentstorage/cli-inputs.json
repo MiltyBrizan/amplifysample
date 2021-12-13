@@ -1,0 +1,14 @@
+{
+  "resourceName": "documentstorage",
+  "policyUUID": "68ec6bc6",
+  "bucketName": "documentmanagera85a2c79dc4040c8a89f74e639592e78",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}

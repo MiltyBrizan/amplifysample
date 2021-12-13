@@ -1,15 +1,14 @@
 /* eslint-disable */
 // this is an auto generated file. This will be overwritten
 
-export const getDocument = /* GraphQL */ `
-  query GetDocument($id: ID!) {
-    getDocument(id: $id) {
+export const getDocuments = /* GraphQL */ `
+  query GetDocuments($id: ID!) {
+    getDocuments(id: $id) {
       id
       title
       description
-      filePath
-      approved
-      owner
+      status
+      location
       createdAt
       updatedAt
     }
@@ -17,7 +16,7 @@ export const getDocument = /* GraphQL */ `
 `;
 export const listDocuments = /* GraphQL */ `
   query ListDocuments(
-    $filter: ModelDocumentFilterInput
+    $filter: ModelDocumentsFilterInput
     $limit: Int
     $nextToken: String
   ) {
@@ -26,11 +25,39 @@ export const listDocuments = /* GraphQL */ `
         id
         title
         description
-        filePath
-        approved
-        owner
+        status
+        location
         createdAt
         updatedAt
+      }
+      nextToken
+    }
+  }
+`;
+export const getPrivateNote = /* GraphQL */ `
+  query GetPrivateNote($id: ID!) {
+    getPrivateNote(id: $id) {
+      id
+      content
+      createdAt
+      updatedAt
+      owner
+    }
+  }
+`;
+export const listPrivateNotes = /* GraphQL */ `
+  query ListPrivateNotes(
+    $filter: ModelPrivateNoteFilterInput
+    $limit: Int
+    $nextToken: String
+  ) {
+    listPrivateNotes(filter: $filter, limit: $limit, nextToken: $nextToken) {
+      items {
+        id
+        content
+        createdAt
+        updatedAt
+        owner
       }
       nextToken
     }

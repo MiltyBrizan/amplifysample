@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "documentmanager",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "/Users/brizanm/Developer/documentmanager/amplify/backend/api/documentmanager/schema.graphql",
+    "defaultAuthType": {
+      "mode": "AMAZON_COGNITO_USER_POOLS",
+      "cognitoUserPoolId": "authdocumentmanager48ae17e4"
+    }
+  }
+}
